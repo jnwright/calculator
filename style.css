@@ -1,0 +1,168 @@
+body {
+  background: linear-gradient(to left, #e8dada, #b9989c);
+  font-family: monospace;
+}
+
+:root {
+  --row1: 150px;
+  --row2: 240px;
+  --row3: 330px;
+  --row4: 420px;
+}
+
+.centering {
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 400px;
+  height: 550px;
+  display: flex;
+}
+
+.centering,
+.container,
+.screen,
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.divide,
+.multiply,
+.add,
+.zero,
+.subtract,
+.equal,
+.clear {
+  position: absolute;
+}
+
+.container {
+  background: #f1bbca;
+  width: 400px;
+  height: 550px;
+  box-shadow: 10px 10px 5px #d6869c;
+}
+
+.screen {
+  left: 20px;
+  width: 360px;
+  height: 90px;
+  background: #fff;
+  top: 30px;
+}
+
+.display {
+  float: right;
+  font-size: 40px;
+  font-family: monospace;
+  margin-right: 10px;
+}
+
+.numbers {
+  width: 90px;
+  height: 90px;
+  font-size: 20px;
+  background: #f0effb;
+  border: 1px solid #e8dada;
+  color: #525252;
+  font-family: monospace;
+}
+
+.operators,
+.clear,
+.equal {
+  width: 90px;
+  height: 90px;
+  font-size: 20px;
+  background: #dedddc;
+  border: 1px solid #e8dada;
+  color: #525252;
+  font-family: monospace;
+}
+
+.one {
+  left: 20px;
+  top: var(--row1);
+}
+
+.two {
+  left: 110px;
+  top: var(--row1);
+}
+
+.three {
+  left: 200px;
+  top: var(--row1);
+}
+
+.divide {
+  left: 290px;
+  top: var(--row1);
+}
+
+.four {
+  left: 20px;
+  top: var(--row2);
+}
+
+.five {
+  left: 110px;
+  top: var(--row2);
+}
+
+.six {
+  left: 200px;
+  top: var(--row2);
+}
+
+.multiply {
+  left: 290px;
+  top: var(--row2);
+}
+
+.seven {
+  left: 20px;
+  top: var(--row3);
+}
+
+.eight {
+  left: 110px;
+  top: var(--row3);
+}
+
+.nine {
+  left: 200px;
+  top: var(--row3);
+}
+
+.add {
+  left: 290px;
+  top: var(--row3);
+}
+
+.zero {
+  left: 20px;
+  top: var(--row4);
+}
+
+.clear {
+  left: 110px;
+  top: var(--row4);
+}
+
+.equal {
+  left: 200px;
+  top: var(--row4);
+}
+
+.subtract {
+  left: 290px;
+  top: var(--row4);
+}
