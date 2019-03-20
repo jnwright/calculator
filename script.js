@@ -69,6 +69,7 @@ equalButton.addEventListener("click", e => {
   if (x == null || reset == true) {
     return (display.textContent = button.textContent);
   } else if (x == 0 && operator == "divide") {
+    reset = true;
     return (display.textContent = "Try again!");
   }
   answer = operate(operator, x, y);
